@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 400vh;
+}
+.hero-wrapper{
+    height: 80vh;
+    width: 100%;
+    background-image: url('./assets/hero-bg.avif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.hero-right{
+    height: 100%;
+    width: 50%;
+}
+.hero-right-card{
+    width: fit-content;
+    background-color: rgba(255, 255, 255, 0.397);
+    backdrop-filter: blur(25px);
+}
+.card-img{
+    height: 200px;
+    width: 300px;
+    background-image: url('./assets/hero-card1.avif');
+    background-size: cover;
+    background-position: center;
+    transition: .5s;
+
+}
+.card-img:hover{
+    background-image: url('./assets/hero-card2.avif');
+}
