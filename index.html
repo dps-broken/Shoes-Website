@@ -23,16 +23,23 @@
         <div class="d-flex align-items-center justify-content-between flex-column flex-lg-row">
             <h2>Ryst.</h2>
             <!-- Nav Right Wrapper -->
-            <div>
-                <input type="text" placeholder="Search"
-                    style="background-image: url('./assets/search.png'); background-size: 10% 60%; background-repeat: no-repeat; background-position: 5%;"
-                    class="border border-dark border-2 px-3 py-2 rounded-pill mx-2 ps-5 mt-3 mt-sm-0" />
-                <i class="fa-regular fa-heart mx-2 mt-3 mt-sm-0"></i>
-                <i class="fa-solid fa-cart-shopping mx-2 mt-3 mt-sm-0"></i>
-                <button class="mx-2 btn border border-dark rounded-pill px-4 px-lg-5 mt-3 mt-sm-0">
+            <div class="d-flex flex-column flex-sm-row">
+
+                <div class="d-flex align-items-center justify-content-between flex-column flex-sm-row">
+                    <input type="text" placeholder="Search"
+                        style="background-image: url('./assets/search.png'); background-size: 10% 60%; background-repeat: no-repeat; background-position: 5%;"
+                        class="border border-dark border-2 px-3 py-2 rounded-pill mx-2 ps-5 mt-3 mt-sm-0" />
+                    <div>
+                        <i class="fa-regular fa-heart mx-2 mt-3 mt-sm-0"></i>
+                        <i class="fa-solid fa-cart-shopping mx-2 mt-3 mt-sm-0"></i>
+                    </div>
+                </div>
+
+
+                <button class="mx-2 btn border border-dark rounded-pill px-1 px-sm-5 mt-3 mt-sm-0">
                     Log in
                 </button>
-                <button class="mx-2 btn border border-dark rounded-pill px-4 px-lg-4 mt-3 mt-sm-0">
+                <button class="mx-2 btn border border-dark rounded-pill px-1 px-sm-4 mt-3 mt-sm-0">
                     Menu
                 </button>
             </div>
@@ -64,7 +71,7 @@
                         <p>$140 <del>$160</del></p>
                     </div>
                     <div class="card-content-lower">
-                        <button class="px-3 py-1 btn border rounded-pill border-dark text-warning">Add TO Cart</button>
+                        <button class="px-2 py-1 btn border rounded-pill border-0  bg-warning text-dark">Add TO Cart</button>
                     </div>
                 </div>
             </div>
@@ -75,15 +82,17 @@
     <!-- Page 2 Code Started Here -->
     <div class="page2-wrapper">
         <!-- page-2-Headder -->
-        <div class="page-2-headder d-flex align-items-center justify-content-between p-4">
-            <p>BEST SALLERS</p>
+        <div class="page-2-headder d-flex align-items-center justify-content-between p-5">
+            <p class="fs-3">BEST SALLERS</p>
             <button class="px-5 py-2 btn border rounded-pill border-dark bg-dark text-warning">VIEW ALL</button>
         </div>
         <!-- page-2-Card-wrapper -->
-        <div class="page-2-card-wrapper d-flex align-items-center justify-content-between flex-wrap">
+        <div class="page-2-card-wrapper d-flex align-items-center justify-content-center gap-2 flex-wrap">
             <!-- page-2-card-1 -->
             <div class="page-2-card">
-                <div id="page-2-card-1-img" class="page-2-card-img"></div>
+                <div id="page-2-card-1-img" class="page-2-card-img p-3">
+                    <button class="btn bg-warning text-black">BEST SALLER</button>
+                </div>
                 <div class="page-2-card-content">
                     <p>SUTAINABLE STRIDER</p>
                     <p>$150.00</p>
@@ -91,7 +100,9 @@
             </div>
             <!-- page-2-card-2 -->
             <div class="page-2-card">
-                <div id="page-2-card-2-img" class="page-2-card-img"></div>
+                <div id="page-2-card-2-img" class="page-2-card-img p-3">
+                    <button class="btn bg-warning text-black">BEST SALLER</button>
+                </div>
                 <div class="page-2-card-content">
                     <p>DISTANCE ELITE</p>
                     <p>$140.00</p>
@@ -99,7 +110,9 @@
             </div>
             <!-- page-2-card-3 -->
             <div class="page-2-card">
-                <div id="page-2-card-3-img" class="page-2-card-img"></div>
+                <div id="page-2-card-3-img" class="page-2-card-img p-3">
+                    <button class="btn bg-warning text-black">BEST SALLER</button>
+                </div>
                 <div class="page-2-card-content">
                     <p>SPRINT CHAMP</p>
                     <p>$180.00</p>
@@ -107,7 +120,9 @@
             </div>
             <!-- page-2-card-4 -->
             <div class="page-2-card">
-                <div id="page-2-card-4-img" class="page-2-card-img"></div>
+                <div id="page-2-card-4-img" class="page-2-card-img p-3">
+                    <button class="btn bg-warning text-black">BEST SALLER</button>
+                </div>
                 <div class="page-2-card-content">
                     <p>JUNIOR SPORT</p>
                     <p>$72.00</p>
