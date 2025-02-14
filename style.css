@@ -36,3 +36,46 @@ body{
 .card-img:hover{
     background-image: url('./assets/hero-card2.avif');
 }
+.page-2-card{
+    height: 500px;
+    width: 23%;
+    min-width: 400px;
+    border: 1px solid red;
+    padding: 10px;
+}
+.page-2-card-img{
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-color: red;
+    transition: .5s;
+}
+.page-2-card-content{
+    padding: 15px 0;
+}
+#page-2-card-1-img{
+    background-image: url('./assets/page2card1.avif');
+}
+#page-2-card-2-img{
+    background-image: url('./assets/page-2img-2.webp');
+}
+#page-2-card-3-img{
+    background-image: url('./assets/page-2-card-3-1.webp');
+}
+#page-2-card-4-img{
+    background-image: url('./assets/page-2-card-4-2.webp');
+}
+/*  */
+#page-2-card-1-img:hover{
+    background-image: url('./assets/page2card1-2.avif');
+}
+#page-2-card-2-img:hover{
+    background-image: url('./assets/page-2-card-2-2.avif');
+}
+#page-2-card-3-img:hover{
+    background-image: url('./assets/page-2-card-3-2.avif');
+}
+#page-2-card-4-img:hover{
+    background-image: url('./assets/page-2-card-4-3.avif');
+}
