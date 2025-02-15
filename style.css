@@ -111,9 +111,8 @@ html,body{
 /* Page - 4 */
 .page-4-card{
     height: 500px;
-    width: 30%;
+    width: 31.2%;
     min-width: 350px;
-    border: 1px solid rgb(202, 202, 202);
     padding: 10px;
 }
 .page-4-card-img{
@@ -124,8 +123,8 @@ html,body{
     transition: .3s;
 }
 .page-4-btn:hover{
-    background-color: yellow;
-    color: black;
+    background-color: black !important;
+    color: #FFC107 !important;
     transition: .3s;
 }
 
@@ -137,4 +136,22 @@ html,body{
 }
 #page-4-card-3-img{
     background-image: url('./assets/page-2-card-3-1.webp');
+}
+/* Page - 5 */
+.page-5-wrapper{
+    height: 80vh;
+    width: 100%;
+    background-image: url('./assets/page-5-bg.avif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.page-5-right-card{
+    background-color: rgba(2, 2, 2, 0.21);
+    backdrop-filter: blur(25px);
+    bottom: 5vw;
+    right: 5vw;
+    color: white !important;
+    width: 300px;
 }
